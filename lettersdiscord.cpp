@@ -16,7 +16,7 @@ void conversor(string s) {
                     cout << ":l_question:";
                     break;
                 case '<':
-                    if (*(&c) == '<')
+                    if (*(&c + 1) == '3')
                         cout << ":l_heart:";
                     break;
             } continue;
