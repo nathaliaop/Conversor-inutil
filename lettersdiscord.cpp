@@ -22,11 +22,12 @@ void conversor(string s) {
             } continue;
         }
         
-        c = (char)tolower(c);
-        cout << (int)c << endl;
+        //c = (char)tolower(c);
+        //cout << (int)c << endl;
         
         cout << ":letter" << setfill('0') << setw (2) << 26 - (int(c) - 97) << (char)toupper(c) << ":";
     }
+    cout << endl;
 }
 
 int main() {
